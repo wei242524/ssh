@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Ingredients Dashboard</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Expiration Date</th>
+            <th>Quantity</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ingredient in ingredients %}
+        <tr>
+            <td>{{ ingredient.id }}</td>
+            <td>{{ ingredient.name }}</td>
+            <td>{{ ingredient.expiration_date }}</td>
+            <td>{{ ingredient.quantity }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
