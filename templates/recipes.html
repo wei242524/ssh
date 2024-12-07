@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Recipes</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Ingredients</th>
+            <th>Instructions</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for recipe in recipes %}
+        <tr>
+            <td>{{ recipe.id }}</td>
+            <td>{{ recipe.name }}</td>
+            <td>{{ recipe.ingredients }}</td>
+            <td>{{ recipe.instructions }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{{ url_for('add_recipe') }}">Add New Recipe</a>
+{% endblock %}
