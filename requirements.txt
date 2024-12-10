@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+Content from the current branch (backend)
+=======
+Content from the branch being merged (frontend)
+>>>>>>> frontend
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client==1.11.0
 anaconda-navigator==2.3.1
