@@ -1,7 +1,19 @@
-<<<<<<< HEAD
+
+# Frontend dependencies
+Flask==2.2.5
+
+# Backend dependencies
+Flask-SQLAlchemy==3.0.5
+
+# Other backend dependencies
+requests==2.27.1
+Werkzeug==2.2.2
+SQLAlchemy==1.4.37
+
+
 Flask==2.2.5
 Flask-SQLAlchemy==3.0.5
-=======
+
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client==1.11.0
 anaconda-navigator==2.3.1
@@ -319,4 +331,5 @@ yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
 zict==2.1.0
 zipp @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b279673d-f037-44c7-8773-c5a6b6f51037d3wfr9cq/croots/recipe/zipp_1652341773612/work
 zope.interface @ file:///opt/concourse/worker/volumes/live/8c2d4bd1-6406-47f0-45ce-890992bafbf6/volume/zope.interface_1625036159007/work
->>>>>>> frontend
+
+
